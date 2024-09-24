@@ -1,3 +1,23 @@
-# Django Deps
+# Base Deps
 
 Django==5.1.1
+
+# Admin
+django-jazzmin==3.0.0
+
+# Translations
+django-rosetta==0.10.0
+django-modeltranslation==0.19.9
+
+# Rest Framework
+djangorestframework==3.15.2
+djangorestframework-simplejwt==5.3.1
+
+# Env
+python-environ==0.4.54
+
+# Database
+psycopg2-binary==2.9.9
+
+# Docs
+drf-yasg==1.21.7
