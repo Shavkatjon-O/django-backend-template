@@ -1,0 +1,3 @@
+# Django Deps
+
+Django==5.1.1
