@@ -1,3 +1,5 @@
 # Develop Deps
 
 -r base.txt
+
+pre-commit==3.8.0
