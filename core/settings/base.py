@@ -5,7 +5,7 @@ from environ import Env
 
 env = Env()
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 SECRET_KEY = env.str(
     "DJANGO_SECRET_KEY", default="twjd0*hd3dd5!m71(rz+n%+$-5&vkqkrqqk7k^2qc9b)@0e#8t"
