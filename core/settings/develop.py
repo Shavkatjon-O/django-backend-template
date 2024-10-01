@@ -1,5 +1,8 @@
 from core.settings.base import *
 
+ALLOWED_HOSTS = ["*"]
+
+DEBUG = True
 
 DATABASES = {
     "default": {
